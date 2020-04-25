@@ -1,0 +1,47 @@
+header{
+	text-align: center;
+}
+
+h2{
+    background-color: red;
+    float: right;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+p{
+	clear: both;
+	padding: 10px;
+}
+
+body{
+	text-align: center;
+}
+
+.container {
+	background-color: blue;
+	display: inline-block;
+	width: 30%;
+	height: 150px;
+	margin: 15px;
+
+	box-sizing: border-box;
+}
+
+/* breakpoint: 992px */
+@media (min-width: 992px) {
+/*each of the 3 sections should take up equal amount of space*/
+
+}
+
+/* breakpoint: 768px and 991px */
+@media (min-width: 768px and max-width: 991px) {
+
+}
+
+/* breakpoint: <767px */
+@media (max-width: 767px) {
+
+}
